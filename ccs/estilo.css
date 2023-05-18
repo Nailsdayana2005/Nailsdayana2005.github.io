@@ -1,0 +1,235 @@
+
+body{
+	background-image:url("../imagenes/negros.jpg"); 
+	font-family:"Hug";
+	font-size:40px;
+	color:#A474F3;
+	}
+P{
+	font-family:"Hug";
+	color:#A474F3;
+	font-size:25px;
+	}
+hr{
+	border: 3px solid #F3F3F3 ;
+	border-radius: 5px;
+}
+table,tr,td{
+	border: 3px solid;
+	border-color:#F3F3F3;
+	background-color:#EED6FF;
+	text-align: center;
+	font-size: 25px;
+	color:#A474F3;
+	font-size:"Happy";
+	font-weight:bold;
+	}
+}
+th{
+	background-color:#9506F8;
+}
+ul{
+	list-style-type:circle;
+	list-style-type:inside;
+}
+ol{
+	list-style-type:upper-roman;
+	list-style-type:inside;
+}
+.pie{
+	text-align:center;
+	font-size:15px;
+	color:#8213CF;
+	font-family:Happy;
+	font-weight:bold;
+}
+.textop{
+	text-align:center;
+	font-size:20px;
+	color:#A474F3;
+	font-family:Hug
+}
+.subtitulo{
+	font-size:30px;
+	color:#A474F3;
+	font-family:Hug;
+	text-align:center;
+}
+.titulo{
+	font-size:50px;
+	color:#A474F3;
+	font-family:Happy;
+	text-align:center;
+}
+.tablas{
+	text-align:center;
+	font-size:30px;
+	color:#A474F3;
+	font-family:Happy;
+}
+.imagenes{
+	width:350px;
+	height:350px;
+	border-radius:15%
+}
+
+.hipervinculos{
+	width:100px;
+	height:100px;
+	border-radius:10%
+}
+.tabla{
+	width:350px;
+	height:350px;
+	border-radius:10%
+}
+.imagen{
+	width:350px;
+	height:350px;
+}
+@font-face{
+	font-family:Happy;
+	src:url(../fuentes/Happy.ttf);
+}
+
+@font-face{
+	font-family:Hug;
+	src:url(../fuentes/Hug.ttf);
+}
+*{
+	margin:0px;
+	padding:0px;
+}
+
+div#top{
+	width:100%;
+	height:100px;
+	background-image:linear-gradient(#D4B5F3,white);
+	
+}
+div#principal{
+	margin:auto;
+	margin-top:10px;
+	width:100%;
+	height:350px;
+	background-image:radial-gradient(pink,white);
+	
+}
+div#principal1{
+	margin:auto;
+	margin-top:10px;
+	width:100%;
+	height:550px;
+	background-image:radial-gradient(pink,white);
+	
+}
+div#piep{
+	width:100%;
+	height:100px;
+	background-image:linear-gradient(#D4B5F3,white);
+}
+.caja{
+	height:500px;
+	width:380px;
+	background:#E5DDEC;
+	border:1px solid #840AF8;
+	margin:5px;
+	color:#9956D8;
+	text-align:center;
+	display:inline-block;
+}
+.caja:hover{
+	box-shadow:0 0 10px #E5DDEC;
+	transform:scale(1.3);
+}
+.caja-texto{
+	padding-top:5px;
+	padding-bottom:5px;
+	font-size:20px;
+	color:#B973FA;
+	font-weight:bold;
+}
+.text-adicional{
+	padding-top:5px;
+	font-size:15px;
+}
+.carrousel{
+    width: 400px;
+    margin:auto;
+    box-sizing: border-box;
+}
+
+.conteCarrousel{
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.itemCarrousel{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.itemCarrouselTarjeta{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.itemCarrouselArrows{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.itemCarrouselArrows > i:hover {
+    cursor: pointer;
+}
+.conteCarrouselController{
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.conteCarrouselController > a{
+    text-decoration: none;
+    font-size: 40px;
+    color: grey;
+}
+.itemCarrouselArrows > a > i{
+    color: white;
+}
+.descripcion{
+	color:.#fadbd8;
+	font-family: sundayBest;
+	text-align:center;
+	background-color:#34495E;
+	font-size: 25px;
+	width:70%;
+	border-radius: 50px;
+	font-weight: bold;
+	display:inline-block;	
+}
+.Menu{
+	height:300px;
+	width:200px;
+	margin:10px;
+	background-color: pink;
+	text-align:center;
+}
+
+.hipervinculos:hover{
+	box-shadow:0 0 10px #E5DDEC;
+	transform:scale(1.3);
+}
